@@ -1,0 +1,36 @@
+name: Repostiory ⚙️ Config or 📖 Docs need updated
+description: File a issue about out of date config or docs in this repo
+title: "⚙️ Config or 📖 Docs need updated: "
+labels: ["Config-or-Docs-OutDated"]
+body:
+- type: checkboxes
+  attributes:
+    label: Is there an existing issue for this?
+    description: Please search to see if an issue already exists for the bug you encountered.
+    options:
+    - label: I have searched the existing issues
+      required: true
+- type: textarea
+  attributes:
+    label: Summary
+    description: File path/s for outdated files
+    placeholder: |
+      Config file at <path> and Doc file at <path> is outdated
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Suggested Updates
+    description: What needs updating in these files.
+    placeholder: |
+      [] - Config File needs additional properties
+      [] - Doc is missing key references & links need updating to new locations
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Anything else?
+    description: |
+      Any other comments
+  validations:
+    required: false
