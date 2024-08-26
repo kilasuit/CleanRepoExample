@@ -1,0 +1,12 @@
+name: Issue assignment
+on:
+    issues:
+        types: [opened]
+jobs:
+    auto-assign:
+        runs-on: ubuntu-latest
+        steps:
+            - name: 'Auto-assign issue'
+                run: gh issue edit $ISSUE --add-assignee kilasuit 
+                GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                ISSUE: ${{ github.event.issue.html_url }}

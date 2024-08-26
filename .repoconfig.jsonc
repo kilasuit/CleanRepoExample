@@ -1,0 +1,6 @@
+{
+    // Note leaves off the . from  the folder locations
+    "vscode": ".\\.config\\vscode\\",
+    "github": ".\\.config\\github\\",
+    "gitconfig": "\\.config\\.gitconfig""gitignore": ""
+}
