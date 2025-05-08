@@ -9,3 +9,7 @@ Example to aid [this vscode issue](https://github.com/microsoft/vscode/issues/22
 
 I don't like lots of config file sprawl and would like a cleaner repo layout in future.
 This would aid in config file scanning as well as if needed mass updating of all config files across multiple repositories.
+
+# Wheres the License
+
+We Do have a License - it's just in the docs folder 😜
